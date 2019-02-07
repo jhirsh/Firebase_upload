@@ -1,10 +1,5 @@
 # Firebase_upload
 <b>Goal:</b> upload .txt files to Firebase Cloud Firestore in a Python script. <br />
-<b>Scope:</b>
-* Input is of form `key: value` in .txt file
-* Must define the type being uploaded
-* Uploaded data to Firestore
-
 <img src="https://github.com/jhirsh/firebase_upload/blob/master/images/firebase_uploaded_data.png" alt="Firebase .json certificate"  display=block margin-left=atuo margin-right=auto width=75%>
 
 <b>Files:</b>
