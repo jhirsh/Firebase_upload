@@ -15,7 +15,7 @@ Navigate to your working directory.
 Download `.json` certificate from Firebase Project and put it in `wd`
 <img src="https://github.com/jhirsh/firebase_upload/blob/master/images/firebase_download_key.png" alt="Firebase .json certificate"  display=block margin-left=atuo margin-right=auto width=75%>
 
-## Notes on Firebase uploading
+## Notes on Firebase in Python
 * `db.collection('<collection id>').document('<document id>').set(data)`
 * `data` must be a python dict. Fill it exactly how you'd like your document to be structured.
 
