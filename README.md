@@ -11,7 +11,7 @@ Navigate to your working directory.
 * `pip install firebase-admin` to install Firebase credentials
 
 Download `.json` certificate from Firebase Project
-![alt text](https://github.com/jhirsh/firebase_upload/firebase_download_key "Logo Title Text 1")
+![alt text](https://github.com/jhirsh/firebase_upload/firebase_download_key.png "Logo Title Text 1")
 
 ## Notes on Firebase uploading
 * `db.collection('<collection id>').document('<document id>').set(data)`
