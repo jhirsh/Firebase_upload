@@ -1,0 +1,6 @@
+# python virtual environemnts should be maintained separately
+env/
+
+# Don't upload .json database key or other supporting files
+*.jpg
+*.json
