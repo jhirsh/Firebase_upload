@@ -3,6 +3,13 @@
 <b>Scope:</b>
 * Input is of form `key: value` in .txt file
 * Must define the type being uploaded
+* Uploaded data to Firestore
+
+<img src="https://github.com/jhirsh/firebase_upload/blob/master/images/firebase_uploaded_data.png" alt="Firebase .json certificate"  display=block margin-left=atuo margin-right=auto width=75%>
+
+<b>Files:</b>
+* `2010_01_10_weights.txt` - input for the script that will be uploaded to Firebase
+* `upload_file.py` - script that performs upload
 
 ## Environment setup
 Navigate to your working directory.
@@ -11,7 +18,7 @@ Navigate to your working directory.
 * `pip install firebase-admin` to install Firebase credentials
 
 Download `.json` certificate from Firebase Project and put it in `wd`
-<img src="https://github.com/jhirsh/firebase_upload/blob/master/firebase_download_key.png" alt="Firebase .json certificate"  display=block margin-left=atuo margin-right=auto width=75%>
+<img src="https://github.com/jhirsh/firebase_upload/blob/master/images/firebase_download_key.png" alt="Firebase .json certificate"  display=block margin-left=atuo margin-right=auto width=75%>
 
 ## Notes on Firebase uploading
 * `db.collection('<collection id>').document('<document id>').set(data)`
