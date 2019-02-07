@@ -1,6 +1,6 @@
 # Firebase_upload
-Goal: upload .txt files to Firebase Cloud Firestore in a Python script. <br />
-Scope:
+<b>Goal:</b> upload .txt files to Firebase Cloud Firestore in a Python script. <br />
+<b>Scope:</b>
 * Input is of form `key: value` in .txt file
 * Must define the type being uploaded
 
@@ -11,7 +11,7 @@ Navigate to your working directory.
 * `pip install firebase-admin` to install Firebase credentials
 
 Download `.json` certificate from Firebase Project and put it in `wd`
-<img src="https://github.com/jhirsh/firebase_upload/blob/master/firebase_download_key.png" alt="Firebase .json certificate" width=500/>
+<img src="https://github.com/jhirsh/firebase_upload/blob/master/firebase_download_key.png" alt="Firebase .json certificate" width=50% display=block margin-left=atuo margin-right=auto>
 
 ## Notes on Firebase uploading
 * `db.collection('<collection id>').document('<document id>').set(data)`
@@ -19,7 +19,7 @@ Download `.json` certificate from Firebase Project and put it in `wd`
 
 ## Running upload script
 `python3 upload_file.py [filename]` <br />
-`[filename]` doesn't need extension, and will automatically `.txt`
+`[filename]` doesn't need extension, and will automatically add `.txt`
 
 ## Further iterations
 * While this method works well for uploading a single file, if you have collected a lot of data, it might make more sense to be able to upload multiple files at once. Could implement it with bash scripting or in the python script itself.
