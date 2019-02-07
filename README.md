@@ -10,8 +10,8 @@ Navigate to your working directory.
 * `pip3 install --upgrade pip` to make update pip version
 * `pip install firebase-admin` to install Firebase credentials
 
-Download `.json` certificate from Firebase Project
-![alt text](https://github.com/jhirsh/firebase_upload/firebase_download_key.png "Logo Title Text 1")
+Download `.json` certificate from Firebase Project and put it in `wd`
+![alt text](https://github.com/jhirsh/firebase_upload/blob/master/firebase_download_key.png "Firebase .json certificate")
 
 ## Notes on Firebase uploading
 * `db.collection('<collection id>').document('<document id>').set(data)`
